@@ -80,7 +80,6 @@ body {
 }
 .navigation a:hover {
   color: #807f7f;
-
 }
 .navigation a:hover::before {
   content: "";
