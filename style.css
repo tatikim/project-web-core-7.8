@@ -81,7 +81,7 @@ body {
 .navigation a:hover {
   color: #807f7f;
 }
-.navigation a:hover::before {
+.navigation a:first-child::before {
   content: "";
   position: absolute;
   left: -20px;
@@ -91,6 +91,7 @@ body {
   background: #41f6d7;
   border-radius: 0 4px 4px 0;
 }
+
 .icon {
   display: flex;
   justify-content: flex-start;
